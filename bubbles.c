@@ -78,6 +78,7 @@ int main(int argc, char **argv)
 			delay(50);
 			cleardevice();
 		}
+		setcolor(c[i].color);
 		check_coordinates(&c[i], maxx, maxy);
 		circle(c[i].x, c[i].y, RADIO);
 		i++;
